@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\car_race_animation.xml",
+        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\menu\\car_race_animation.xml"
+    },
+    {
+        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\precise_pitch_home.xml",
+        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\menu\\precise_pitch_home.xml"
+    },
+    {
+        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fingerboard_heat_map.xml",
+        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\menu\\fingerboard_heat_map.xml"
+    }
+]

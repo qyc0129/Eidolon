@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="large_button_text">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Acoustic Eidolon</string>
+    <string name="pitch_competition">Game of Pitches</string>
+    <string name="practice_note_sequences">Practice Note Sequences</string>
+    <string name="title_activity_car_race_animation">CarRaceAnimation</string>
+    <string name="title_activity_fingerboard_heat_map">Fingerboard Heat Map</string>
+    <string name="title_activity_precise_pitch_home">Acoustic Eidolon</string>
+    <style name="theme1">
+        <item name="android:windowFullscreen">@android:style/Theme.Holo</item>
+        <item name="android:actionBarStyle">@android:style/Theme.Holo</item>
+    </style>
+    <style name="theme11">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">?android:windowNoTitle</item>
+    </style>
+</resources>

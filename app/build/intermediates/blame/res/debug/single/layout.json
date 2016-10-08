@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
+        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\practice.xml",
+        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\layout\\practice.xml"
+    },
+    {
+        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_list_entry.xml",
+        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\layout\\home_list_entry.xml"
+    },
+    {
+        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_precise_pitch_home.xml",
+        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\layout\\activity_precise_pitch_home.xml"
+    },
+    {
+        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tune_choice_component.xml",
+        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\layout\\tune_choice_component.xml"
+    }
+]
