@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ear.png",
-        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\drawable-xhdpi\\ear.png"
+        "merged": "D:\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher_pp.png",
+        "source": "D:\\Eidolon\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_pp.png"
     },
     {
-        "merged": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher_pp.png",
-        "source": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher_pp.png"
+        "merged": "D:\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ear.png",
+        "source": "D:\\Eidolon\\app\\src\\main\\res\\drawable-xhdpi\\ear.png"
     }
 ]

@@ -21,6 +21,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.os.Handler;
 import android.os.Message;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.*;
 import net.zllr.precisepitch.model.MeasuredPitch;
@@ -81,9 +82,32 @@ public class TunerActivity extends Activity {
         decibelView = (TextView) findViewById(R.id.decibelView);
         decibelView.setVisibility(techVisibility);
 
-        addAccidentalListener();        
+        addAccidentalListener();
+        addListenerOnButton();
     }
+    private void addListenerOnButton() {
+        ImageButton imgButton;
+        imgButton = (ImageButton) findViewById
+                (R.id.imageButton);
 
+        imgButton.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
+                    pitchPoster = new MicrophonePitchSource();
+                    pitchPoster.setHandler(new UIUpdateHandler());
+                    pitchPoster.startSampling();
+                    findViewById(R.id.noteDisplay).setVisibility(View.VISIBLE);
+                }
+                if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    pitchPoster.stopSampling();
+                    pitchPoster = null;
+                    findViewById(R.id.noteDisplay).setVisibility(View.INVISIBLE);
+                }
+                return false;
+            }
+        });
+    }
     private void addAccidentalListener() {
         final RadioGroup accidentalGroup = (RadioGroup) findViewById(R.id.accidentalSelection);
         accidentalGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -107,16 +131,11 @@ public class TunerActivity extends Activity {
     @Override
     protected void onPause() {
         super.onPause();
-        pitchPoster.stopSampling();
-        pitchPoster = null;
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        pitchPoster = new MicrophonePitchSource();
-        pitchPoster.setHandler(new UIUpdateHandler());
-        pitchPoster.startSampling();
     }
 
     // Whenever MicrophonePitchSource has a new note value available, it will

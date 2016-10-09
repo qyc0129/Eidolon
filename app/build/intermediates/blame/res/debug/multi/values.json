@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\android\\precise-pitch-master1\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "D:\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 88,
+                        "startOffset": 90,
                         "endColumn": 57,
-                        "endOffset": 141
+                        "endOffset": 143
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 146,
+                        "startOffset": 149,
                         "endColumn": 55,
-                        "endOffset": 197
+                        "endOffset": 200
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 213
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 202,
+                        "startOffset": 206,
                         "endColumn": 48,
-                        "endOffset": 246
+                        "endOffset": 250
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 266
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 189,
+                        "startOffset": 194,
                         "endColumn": 52,
-                        "endOffset": 237
+                        "endOffset": 242
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 320
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 56,
+                        "startOffset": 59,
                         "endColumn": 53,
-                        "endOffset": 105
+                        "endOffset": 108
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 382
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 403,
+                        "startOffset": 411,
                         "endColumn": 61,
-                        "endOffset": 460
+                        "endOffset": 468
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 458
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 327,
+                        "startOffset": 334,
                         "endColumn": 75,
-                        "endOffset": 398
+                        "endOffset": 405
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 537
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 465,
+                        "startOffset": 474,
                         "endColumn": 78,
-                        "endOffset": 539
+                        "endOffset": 548
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 622
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 242,
+                        "startOffset": 248,
                         "endColumn": 84,
-                        "endOffset": 322
+                        "endOffset": 328
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 701
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 110,
+                        "startOffset": 114,
                         "endColumn": 78,
-                        "endOffset": 184
+                        "endOffset": 188
                     }
                 }
             },
@@ -202,7 +202,7 @@
                     "endOffset": 896
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\style.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\style.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -223,7 +223,7 @@
                     "endOffset": 1067
                 },
                 "from": {
-                    "file": "E:\\android\\precise-pitch-master1\\app\\src\\main\\res\\values\\style.xml",
+                    "file": "D:\\Eidolon\\app\\src\\main\\res\\values\\style.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

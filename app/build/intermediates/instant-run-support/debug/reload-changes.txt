@@ -1,8 +1,3 @@
-CHANGED,E:\android\precise-pitch-master1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\zllr\precisepitch\R$style$override.class
-CHANGED,E:\android\precise-pitch-master1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\zllr\precisepitch\R$id$override.class
-CHANGED,E:\android\precise-pitch-master1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,E:\android\precise-pitch-master1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\zllr\precisepitch\R$mipmap$override.class
-CHANGED,E:\android\precise-pitch-master1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\zllr\precisepitch\R$string$override.class
-CHANGED,E:\android\precise-pitch-master1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\zllr\precisepitch\R$drawable$override.class
-CHANGED,E:\android\precise-pitch-master1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\zllr\precisepitch\R$menu$override.class
-CHANGED,E:\android\precise-pitch-master1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\zllr\precisepitch\R$layout$override.class
+CHANGED,D:\Eidolon\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\zllr\precisepitch\TunerActivity$override.class
+CHANGED,D:\Eidolon\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\net\zllr\precisepitch\R$id$override.class
+CHANGED,D:\Eidolon\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

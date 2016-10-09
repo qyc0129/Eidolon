@@ -14,9 +14,9 @@ public final class R {
     public static final class attr {
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f060000;
-        public static final int activity_vertical_margin=0x7f060001;
-        public static final int large_button_text=0x7f060002;
+        public static final int activity_horizontal_margin=0x7f070000;
+        public static final int activity_vertical_margin=0x7f070001;
+        public static final int large_button_text=0x7f070002;
     }
     public static final class drawable {
         public static final int ab=0x7f020000;
@@ -25,47 +25,48 @@ public final class R {
         public static final int ic_launcher_pp=0x7f020003;
     }
     public static final class id {
-        public static final int accidentalSelection=0x7f0a0010;
-        public static final int action_settings=0x7f0a0028;
-        public static final int canDoBetterButton=0x7f0a001c;
-        public static final int centThreshold=0x7f0a000f;
-        public static final int centView=0x7f0a000d;
-        public static final int decibelView=0x7f0a000b;
-        public static final int earIcon=0x7f0a0008;
-        public static final int flatRadio=0x7f0a0011;
-        public static final int flatText=0x7f0a000a;
-        public static final int frequencyDisplay=0x7f0a0007;
-        public static final int homeList=0x7f0a0000;
-        public static final int homeListEntryText1=0x7f0a0004;
-        public static final int homeListEntryText2=0x7f0a0005;
-        public static final int horizontalScrollView=0x7f0a0014;
-        public static final int imgLogo=0x7f0a0002;
-        public static final int logo_holder=0x7f0a0001;
-        public static final int newPractice=0x7f0a001b;
-        public static final int nextHigher=0x7f0a000e;
-        public static final int nextLower=0x7f0a000c;
-        public static final int noteDisplay=0x7f0a0006;
-        public static final int practiceInstructions=0x7f0a0018;
-        public static final int practiceLedDisplay=0x7f0a0017;
-        public static final int practiceStaff=0x7f0a0015;
-        public static final int practiceStartButton=0x7f0a001a;
-        public static final int sharpRadio=0x7f0a0012;
-        public static final int sharpText=0x7f0a0009;
-        public static final int startLayout=0x7f0a0019;
-        public static final int tcNewAMajor=0x7f0a0022;
-        public static final int tcNewAbMajor=0x7f0a0024;
-        public static final int tcNewBbMajor=0x7f0a0027;
-        public static final int tcNewCMajor=0x7f0a001f;
-        public static final int tcNewDMajor=0x7f0a0021;
-        public static final int tcNewEMajor=0x7f0a0023;
-        public static final int tcNewEbMajor=0x7f0a0025;
-        public static final int tcNewFMajor=0x7f0a0026;
-        public static final int tcNewGMajor=0x7f0a0020;
-        public static final int tcNewSeq=0x7f0a001e;
-        public static final int tcRandomSequence=0x7f0a001d;
-        public static final int tuneChoice=0x7f0a0016;
-        public static final int tunerInsruction=0x7f0a0013;
-        public static final int txtLogo=0x7f0a0003;
+        public static final int accidentalSelection=0x7f0b0010;
+        public static final int action_settings=0x7f0b0029;
+        public static final int canDoBetterButton=0x7f0b001d;
+        public static final int centThreshold=0x7f0b000f;
+        public static final int centView=0x7f0b000d;
+        public static final int decibelView=0x7f0b000c;
+        public static final int earIcon=0x7f0b0009;
+        public static final int flatRadio=0x7f0b0011;
+        public static final int flatText=0x7f0b000b;
+        public static final int frequencyDisplay=0x7f0b0008;
+        public static final int homeList=0x7f0b0000;
+        public static final int homeListEntryText1=0x7f0b0004;
+        public static final int homeListEntryText2=0x7f0b0005;
+        public static final int horizontalScrollView=0x7f0b0015;
+        public static final int imageButton=0x7f0b0014;
+        public static final int imgLogo=0x7f0b0002;
+        public static final int logo_holder=0x7f0b0001;
+        public static final int newPractice=0x7f0b001c;
+        public static final int nextHigher=0x7f0b000e;
+        public static final int nextLower=0x7f0b0007;
+        public static final int noteDisplay=0x7f0b0006;
+        public static final int practiceInstructions=0x7f0b0019;
+        public static final int practiceLedDisplay=0x7f0b0018;
+        public static final int practiceStaff=0x7f0b0016;
+        public static final int practiceStartButton=0x7f0b001b;
+        public static final int sharpRadio=0x7f0b0012;
+        public static final int sharpText=0x7f0b000a;
+        public static final int startLayout=0x7f0b001a;
+        public static final int tcNewAMajor=0x7f0b0023;
+        public static final int tcNewAbMajor=0x7f0b0025;
+        public static final int tcNewBbMajor=0x7f0b0028;
+        public static final int tcNewCMajor=0x7f0b0020;
+        public static final int tcNewDMajor=0x7f0b0022;
+        public static final int tcNewEMajor=0x7f0b0024;
+        public static final int tcNewEbMajor=0x7f0b0026;
+        public static final int tcNewFMajor=0x7f0b0027;
+        public static final int tcNewGMajor=0x7f0b0021;
+        public static final int tcNewSeq=0x7f0b001f;
+        public static final int tcRandomSequence=0x7f0b001e;
+        public static final int tuneChoice=0x7f0b0017;
+        public static final int tunerInsruction=0x7f0b0013;
+        public static final int txtLogo=0x7f0b0003;
     }
     public static final class layout {
         public static final int activity_precise_pitch_home=0x7f040000;
@@ -76,24 +77,29 @@ public final class R {
         public static final int tune_choice_component=0x7f040005;
     }
     public static final class menu {
-        public static final int car_race_animation=0x7f090000;
-        public static final int fingerboard_heat_map=0x7f090001;
-        public static final int precise_pitch_home=0x7f090002;
+        public static final int car_race_animation=0x7f0a0000;
+        public static final int fingerboard_heat_map=0x7f0a0001;
+        public static final int precise_pitch_home=0x7f0a0002;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
+        public static final int ic_launcher2=0x7f030001;
+        public static final int ic_launcher3=0x7f030002;
     }
     public static final class string {
-        public static final int action_settings=0x7f070000;
-        public static final int app_name=0x7f070001;
-        public static final int pitch_competition=0x7f070002;
-        public static final int practice_note_sequences=0x7f070003;
-        public static final int title_activity_car_race_animation=0x7f070004;
-        public static final int title_activity_fingerboard_heat_map=0x7f070005;
-        public static final int title_activity_precise_pitch_home=0x7f070006;
+        public static final int action_settings=0x7f080000;
+        public static final int app_name=0x7f080001;
+        public static final int pitch_competition=0x7f080002;
+        public static final int practice_note_sequences=0x7f080003;
+        public static final int title_activity_car_race_animation=0x7f080004;
+        public static final int title_activity_fingerboard_heat_map=0x7f080005;
+        public static final int title_activity_precise_pitch_home=0x7f080006;
     }
     public static final class style {
-        public static final int theme1=0x7f080000;
-        public static final int theme11=0x7f080001;
+        public static final int theme1=0x7f090000;
+        public static final int theme11=0x7f090001;
+    }
+    public static final class xml {
+        public static final int selector=0x7f060000;
     }
 }

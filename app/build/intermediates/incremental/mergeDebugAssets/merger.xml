@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\android\precise-pitch-master1\app\src\main\assets"/><source path="E:\android\precise-pitch-master1\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\android\precise-pitch-master1\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Eidolon\app\src\main\assets"/><source path="D:\Eidolon\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\Eidolon\app\src\debug\assets"/></dataSet></merger>

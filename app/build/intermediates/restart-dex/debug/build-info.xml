@@ -1,32 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="19"
-    density="xxhdpi"
+    abi="x86_64,x86"
+    api-level="22"
+    density="xhdpi"
     format="7"
-    timestamp="8678806122834" >
+    timestamp="4261319715893"
+    verifier="R_CLASS_CHANGE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="285" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="28" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
-        location="E:\android\precise-pitch-master1\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="D:\Eidolon\app\build\intermediates\res\resources-debug.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="D:\Eidolon\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
 
-    <build timestamp="8678806122834" >
+    <build timestamp="4067671437047" >
         <artifact
-            location="E:\android\precise-pitch-master1\app\build\outputs\apk\app-debug.apk"
+            location="D:\Eidolon\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="4261319715893"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="D:\Eidolon\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="D:\Eidolon\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

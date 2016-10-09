@@ -1,109 +1,109 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:2:1-73:12
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:2:1-73:12
 	package
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:3:5-36
-		INJECTED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml
-		INJECTED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\Eidolon\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Eidolon\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml
-		INJECTED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Eidolon\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Eidolon\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml
-		INJECTED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Eidolon\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Eidolon\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:7:5-9:41
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml
-		INJECTED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Eidolon\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Eidolon\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml
-		INJECTED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Eidolon\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Eidolon\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:12:5-71
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:12:5-71
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:12:22-68
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:12:22-68
 application
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:14:5-71:19
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:14:5-71:19
 	android:label
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:18:9-41
 	android:allowBackup
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:17:9-48
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:17:9-48
 	android:theme
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:15:9-56
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:15:9-56
 activity#net.zllr.precisepitch.SplashScreen
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:19:9-27:20
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:19:9-27:20
 	android:screenOrientation
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:20:13-49
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:20:13-49
 	android:theme
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:21:13-66
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:21:13-66
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:19:19-47
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:19:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:22:13-26:29
 action#android.intent.action.MAIN
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:23:17-69
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:23:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:25:27-74
 activity#net.zllr.precisepitch.PrecisePitchHome
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:28:9-36:20
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:28:9-36:20
 	android:label
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:30:13-45
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:30:13-45
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:29:13-66
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:29:13-66
 intent-filter#android.intent.action.MAIN
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:32:13-35:29
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:32:13-35:29
 activity#net.zllr.precisepitch.TunerActivity
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:37:9-41:20
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:37:9-41:20
 	android:label
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:39:13-70
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:39:13-70
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:38:13-63
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:38:13-63
 activity#net.zllr.precisepitch.FingerboardHeatMap
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:42:9-46:20
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:42:9-46:20
 	android:label
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:44:13-72
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:44:13-72
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:43:13-68
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:43:13-68
 activity#net.zllr.precisepitch.PracticeActivity
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:47:9-52:20
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:47:9-52:20
 	android:screenOrientation
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:50:6-43
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:50:6-43
 	android:label
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:49:13-60
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:49:13-60
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:48:13-66
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:48:13-66
 activity#net.zllr.precisepitch.GameSetupActivity
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:53:9-58:20
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:53:9-58:20
 	android:label
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:55:13-54
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:55:13-54
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:54:13-67
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:54:13-67
 activity#net.zllr.precisepitch.GamePlayActivity
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:59:9-63:20
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:59:9-63:20
 	android:label
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:61:13-54
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:61:13-54
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:60:13-66
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:60:13-66
 activity#net.zllr.precisepitch.CarRaceAnimation
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:64:9-68:20
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:64:9-68:20
 	android:label
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:66:13-70
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:66:13-70
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:65:13-66
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:65:13-66
 activity#net.zllr.precisepitch.GameResultActivity
-ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:69:9-55
+ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:69:9-55
 	android:name
-		ADDED from E:\android\precise-pitch-master1\app\src\main\AndroidManifest.xml:69:19-53
+		ADDED from D:\Eidolon\app\src\main\AndroidManifest.xml:69:19-53
