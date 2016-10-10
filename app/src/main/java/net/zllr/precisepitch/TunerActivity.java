@@ -26,13 +26,17 @@ import android.view.View;
 import android.widget.*;
 import net.zllr.precisepitch.model.MeasuredPitch;
 import net.zllr.precisepitch.view.CenterOffsetView;
+import net.zllr.precisepitch.model.NoteDocument;
+import net.zllr.precisepitch.model.DisplayNote;
+import net.zllr.precisepitch.view.StaffView;
 
 public class TunerActivity extends Activity {
     private static final int kCentThreshold = 10;  // TODO: make configurable
     private static final boolean kShowTechInfo = false;
 
+    private StaffView staff;
     private TextView frequencyDisplay;
-    private TextView noteDisplay;
+
     private TextView flatDisplay;
     private TextView sharpDisplay;
     private TextView decibelView;
@@ -65,9 +69,7 @@ public class TunerActivity extends Activity {
         sharpDisplay = (TextView) findViewById(R.id.sharpText);
         prevNote = (TextView) findViewById(R.id.nextLower);
         nextNote = (TextView) findViewById(R.id.nextHigher);
-        noteDisplay = (TextView) findViewById(R.id.noteDisplay);
-        noteDisplay.setKeepScreenOn(true);
-        noteDisplay.setText("");
+
         instruction = (TextView) findViewById(R.id.tunerInsruction);
         instruction.setText("");
 
@@ -82,8 +84,23 @@ public class TunerActivity extends Activity {
         decibelView = (TextView) findViewById(R.id.decibelView);
         decibelView.setVisibility(techVisibility);
 
+        staff = (StaffView) findViewById(R.id.practiceStaff);
+        staff.setNotesPerStaff(16);
+        staff.setNoteModel(new NoteDocument());
+
         addAccidentalListener();
         addListenerOnButton();
+        addListenerOnClearButton();
+    }
+    private void addListenerOnClearButton()
+    {
+     Button clearbutton;
+        clearbutton=(Button)findViewById(R.id.clearbutton);
+        clearbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+            staff.setNoteModel(new NoteDocument());
+        }});
     }
     private void addListenerOnButton() {
         ImageButton imgButton;
@@ -97,13 +114,12 @@ public class TunerActivity extends Activity {
                     pitchPoster = new MicrophonePitchSource();
                     pitchPoster.setHandler(new UIUpdateHandler());
                     pitchPoster.startSampling();
-                    findViewById(R.id.noteDisplay).setVisibility(View.VISIBLE);
+
                 }
                 if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
                     pitchPoster.stopSampling();
                     pitchPoster = null;
-                    findViewById(R.id.noteDisplay).setVisibility(View.INVISIBLE);
-                }
+                    }
                 return false;
             }
         });
@@ -150,7 +166,7 @@ public class TunerActivity extends Activity {
         }
 
         private void setFadeableComponentAlpha(float alpha) {
-            setAlphaOnText(noteDisplay, alpha);
+
             setAlphaOnText(flatDisplay, alpha);
             setAlphaOnText(sharpDisplay, alpha);
             setAlphaOnText(frequencyDisplay, alpha);
@@ -164,11 +180,24 @@ public class TunerActivity extends Activity {
             final MeasuredPitch data
                 = (MeasuredPitch) msg.obj;
 
-            if (data != null && data.decibel > -30) {
+
+            if (data != null && data.decibel > -30)
+            {
+                if(index>3)
+                {
+                    index=0;
+                    for(int i=0;i<4;i++)
+                    { averagenote +=average[i];}
+                    averagenote =averagenote/4;
+                    staff.getNoteModel().add(new DisplayNote(averagenote % 12,4));
+                    staff.ensureNoteInView(0);
+                    staff.onModelChanged();
+                }
+                average[index++]=data.note;
                 frequencyDisplay.setText(String.format(data.frequency < 200 ? "%.1fHz" : "%.0fHz",
                                                        data.frequency));
                 final String printNote = noteNames[keyDisplay.ordinal()][data.note % 12];
-                noteDisplay.setText(printNote.substring(0, 1));
+
                 final String accidental = printNote.length() > 1 ? printNote.substring(1) : "";
                 flatDisplay.setVisibility("b".equals(accidental) ? View.VISIBLE : View.INVISIBLE);
                 sharpDisplay.setVisibility("#".equals(accidental) ? View.VISIBLE : View.INVISIBLE);
@@ -176,7 +205,7 @@ public class TunerActivity extends Activity {
                 prevNote.setText(noteNames[keyDisplay.ordinal()][(data.note + 11) % 12]);
                 final boolean inTune = Math.abs(data.cent) <= kCentThreshold;
                 final int c = inTune ? Color.rgb(50, 255, 50) : Color.rgb(255,50, 50);
-                noteDisplay.setTextColor(c);
+
                 flatDisplay.setTextColor(c);
                 sharpDisplay.setTextColor(c);
                 if (!inTune) {
@@ -192,8 +221,7 @@ public class TunerActivity extends Activity {
                 if (fadeCountdown < 0) fadeCountdown = 0;
                 setFadeableComponentAlpha(1.0f * fadeCountdown / kMaxWait);
             }
-            earIcon.setVisibility(data != null && data.decibel > -30
-                                  ? View.VISIBLE : View.INVISIBLE);
+            earIcon.setVisibility(data != null && data.decibel > -30? View.VISIBLE : View.INVISIBLE);
             if (data != null && data.decibel > -60) {
                 decibelView.setText(String.format("%.0fdB", data.decibel));
             } else {
@@ -201,7 +229,9 @@ public class TunerActivity extends Activity {
             }
             lastPitch = data;
         }
-
+        private int index=0;
+        private int averagenote;
+        private int[] average=new int[4];
         private MeasuredPitch lastPitch;
         private int fadeCountdown;
     }

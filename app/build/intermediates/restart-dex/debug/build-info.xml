@@ -1,46 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
+    abi="x86_64"
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="4261319715893"
-    verifier="R_CLASS_CHANGE" >
+    timestamp="2183707580566" >
 
     <task
         name="javac"
-        duration="285" />
+        duration="3108" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="641" />
     <task
         name="verifier"
-        duration="3" />
+        duration="145" />
 
     <artifact
-        location="D:\Eidolon\app\build\intermediates\res\resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="D:\Eidolon\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-        type="DEX" />
+        location="D:\Eidolon\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="4067671437047" >
+    <build timestamp="2183707580566" >
         <artifact
             location="D:\Eidolon\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="4261319715893"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="D:\Eidolon\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="D:\Eidolon\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

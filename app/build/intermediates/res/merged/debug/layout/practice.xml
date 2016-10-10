@@ -9,7 +9,7 @@
     <HorizontalScrollView android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="0px"
-	    android:fillViewport="true"
+	        android:fillViewport="true"
             android:id="@+id/horizontalScrollView">
 
         <view android:layout_width="match_parent"

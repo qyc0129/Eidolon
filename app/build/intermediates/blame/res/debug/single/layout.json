@@ -4,12 +4,12 @@
         "source": "D:\\Eidolon\\app\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "D:\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_list_entry.xml",
-        "source": "D:\\Eidolon\\app\\src\\main\\res\\layout\\home_list_entry.xml"
-    },
-    {
         "merged": "D:\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash_screen.xml",
         "source": "D:\\Eidolon\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "D:\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\layout\\home_list_entry.xml",
+        "source": "D:\\Eidolon\\app\\src\\main\\res\\layout\\home_list_entry.xml"
     },
     {
         "merged": "D:\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tune_choice_component.xml",

@@ -1,3 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\Eidolon\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a7342f914e9b79b7a26631be49224ca741a674dd">
+        <dex dex="D:\Eidolon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4103fa346e4d9e07469f30876cbf3c3bfb8ef522\classes.dex" />
+    </item>
+    <item
+        jar="D:\Eidolon\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f51f65c29650aeffb06ed07f9c75ff306e20302b">
+        <dex dex="D:\Eidolon\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_2a549d267618a436c309c2c2c9e4aaf4b4c917be\classes.dex" />
+    </item>
+
+</items>

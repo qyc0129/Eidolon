@@ -11,22 +11,6 @@
     >
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/noteDisplay"
-        android:editable="false"
-        android:height="200dp"
-        android:width="150dp"
-        android:textSize="180dp"
-        android:text="C"
-        android:singleLine="false"
-        android:textColor="#ffffff"
-        android:gravity="center_vertical|center_horizontal"
-        android:layout_below="@+id/nextLower"
-        android:layout_centerHorizontal="true"/>
-
-    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -36,18 +20,18 @@
             android:textColor="#ffffff"
             android:textSize="16dp"
             android:layout_alignBottom="@+id/earIcon"
-            android:layout_toRightOf="@+id/noteDisplay"/>
+            android:layout_centerHorizontal="true"/>
 
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="♯"
-            android:id="@+id/sharpText"
-            android:textColor="#ffffff"
-            android:layout_alignTop="@+id/noteDisplay"
-            android:layout_toRightOf="@+id/noteDisplay"
-            android:textSize="80dp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="♯"
+        android:id="@+id/sharpText"
+        android:textColor="#ffffff"
+        android:textSize="80dp"
+        android:layout_below="@+id/nextLower"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -58,8 +42,7 @@
             android:textSize="80dp"
             android:textIsSelectable="true"
             android:textColor="#ffffff"
-            android:layout_alignBottom="@+id/noteDisplay"
-            android:layout_toRightOf="@+id/noteDisplay"/>
+            android:layout_centerHorizontal="true"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -134,7 +117,7 @@
             android:id="@+id/earIcon"
             android:src="@drawable/ear"
             android:layout_alignRight="@+id/sharpText"
-            android:layout_below="@+id/noteDisplay"/>
+            android:layout_below="@+id/nextLower"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -151,7 +134,40 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageButton"
         android:src="@xml/selector"
-        android:layout_alignBottom="@+id/earIcon"
-        android:layout_centerHorizontal="true"/>
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/frequencyDisplay"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:id="@+id/horizontalScrollView"
+        android:layout_below="@+id/sharpText"
+        android:layout_above="@+id/imageButton">
+
+    <view android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          class="net.zllr.precisepitch.view.StaffView"
+          android:id="@+id/practiceStaff"/>
+</HorizontalScrollView>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:id="@+id/savebutton"
+        android:layout_marginLeft="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/nextHigher"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        android:id="@+id/clearbutton"
+        android:layout_below="@+id/horizontalScrollView"
+        android:layout_toRightOf="@+id/tunerInsruction"/>
 
 </RelativeLayout>
