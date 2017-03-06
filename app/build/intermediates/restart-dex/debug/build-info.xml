@@ -4,28 +4,28 @@
     api-level="19"
     density="xxhdpi"
     format="7"
-    timestamp="7173915129480" >
+    timestamp="8978451097204" >
 
     <task
         name="javac"
-        duration="945" />
+        duration="194" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="220" />
+        duration="30" />
     <task
         name="verifier"
-        duration="136" />
+        duration="1" />
 
     <artifact
-        location="E:\Eidolon-master\app\build\outputs\apk\app-debug.apk"
+        location="D:\Eidolon\Eidolon\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="7173915129480" >
+    <build timestamp="8978451097204" >
         <artifact
-            location="E:\Eidolon-master\app\build\outputs\apk\app-debug.apk"
+            location="D:\Eidolon\Eidolon\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

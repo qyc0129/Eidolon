@@ -2,5 +2,9 @@
     {
         "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\xml\\selector.xml",
         "source": "E:\\Eidolon-master\\app\\src\\main\\res\\xml\\selector.xml"
+    },
+    {
+        "merged": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\xml\\selector.xml",
+        "source": "D:\\Eidolon\\Eidolon\\app\\src\\main\\res\\xml\\selector.xml"
     }
 ]

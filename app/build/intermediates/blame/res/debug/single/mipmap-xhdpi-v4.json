@@ -4,8 +4,20 @@
         "source": "E:\\Eidolon-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher2.png",
+        "source": "D:\\Eidolon\\Eidolon\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher2.png"
+    },
+    {
         "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher3.png",
         "source": "E:\\Eidolon-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher3.png"
+    },
+    {
+        "merged": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher3.png",
+        "source": "D:\\Eidolon\\Eidolon\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher3.png"
+    },
+    {
+        "merged": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\Eidolon\\Eidolon\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher2.png",

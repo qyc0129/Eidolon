@@ -390,7 +390,7 @@ public class TunerActivity extends Activity {
                     outputStream.write((usname).getBytes());
                     outputStream.flush();
                     System.out.println(socket);
-                    pswd22=jm(pswd);
+                    pswd22=ready+"$"+jm(pswd);
                     outputStream.write((pswd22).getBytes());
                     outputStream.flush();
                     System.out.println(socket);
