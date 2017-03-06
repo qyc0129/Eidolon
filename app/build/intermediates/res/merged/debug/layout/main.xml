@@ -1,0 +1,220 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:background="@drawable/back"
+    tools:context=".TunerActivity"
+    >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="440.1"
+            android:id="@+id/frequencyDisplay"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:layout_alignBottom="@+id/earIcon"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="♯"
+        android:id="@+id/sharpText"
+        android:textColor="#ffffff"
+        android:textSize="80dp"
+        android:layout_below="@+id/nextLower"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="♭"
+            android:id="@+id/flatText"
+            android:textSize="80dp"
+            android:textIsSelectable="true"
+            android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/earIcon" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="-20dB"
+            android:id="@+id/decibelView"
+            android:textColor="#808080"
+            android:layout_alignRight="@+id/sharpText"
+            android:layout_below="@+id/frequencyDisplay"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="B#"
+            android:id="@+id/nextLower"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/centView"
+            android:layout_toLeftOf="@+id/centView"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Db"
+            android:id="@+id/nextHigher"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/centView"
+            android:layout_toRightOf="@+id/centView"/>
+
+    <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/centThreshold"
+            android:layout_toLeftOf="@+id/frequencyDisplay"
+            android:layout_alignBottom="@+id/centThreshold"
+            android:id="@+id/accidentalSelection"
+        android:visibility="invisible">
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="♭"
+                android:id="@+id/flatRadio"
+                android:layout_gravity="center_horizontal|top"
+                android:width="80dp"
+                android:textColor="#ffffff"/>
+
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="♯"
+                android:id="@+id/sharpRadio"
+                android:layout_gravity="center_horizontal|top"
+                android:textColor="#ffffff"
+                android:width="80dp"/>
+    </RadioGroup>
+
+    <view
+        android:id="@+id/centView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="es.Eidolon.view.CenterOffsetView"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/sharpText"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/earIcon"
+            android:src="@drawable/ear"
+        android:layout_above="@+id/sharpText"
+        android:layout_alignRight="@+id/horizontalScrollView" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/tunerInsruction"
+            android:layout_alignTop="@+id/earIcon"
+            android:text="(instruction)"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/block"
+        android:id="@+id/imageButton"
+
+
+        android:layout_alignTop="@+id/savebutton"
+        android:layout_centerHorizontal="true" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:fillViewport="true"
+
+        android:id="@+id/horizontalScrollView"
+        android:layout_below="@+id/centView"
+        android:layout_centerHorizontal="true">
+
+    <view android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          class="es.Eidolon.view.StaffView"
+          android:id="@+id/practiceStaff"/>
+</HorizontalScrollView>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:id="@+id/savebutton"
+        android:layout_marginLeft="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/nextHigher"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        android:id="@+id/clearbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/tunerInsruction"></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   user"
+        android:id="@+id/login"
+        android:layout_above="@+id/savebutton"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/flatText"
+        android:layout_toLeftOf="@+id/earIcon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/login"
+        android:layout_alignLeft="@+id/textView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play"
+        android:id="@+id/buttonplay"
+        android:layout_above="@+id/login"
+        android:layout_toRightOf="@+id/savebutton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:id="@+id/regis"
+        android:layout_above="@+id/buttonplay"
+        android:layout_toRightOf="@+id/buttonplay" />
+
+</RelativeLayout>

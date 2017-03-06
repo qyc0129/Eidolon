@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\fingerboard_heat_map.xml",
+        "source": "E:\\Eidolon-master\\app\\src\\main\\res\\menu\\fingerboard_heat_map.xml"
+    },
+    {
+        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\precise_pitch_home.xml",
+        "source": "E:\\Eidolon-master\\app\\src\\main\\res\\menu\\precise_pitch_home.xml"
+    },
+    {
+        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\car_race_animation.xml",
+        "source": "E:\\Eidolon-master\\app\\src\\main\\res\\menu\\car_race_animation.xml"
+    }
+]
