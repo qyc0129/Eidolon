@@ -1,3 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\Eidolon\Eidolon\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="26aa1504f179e69d2bd91018a903a1efb763f9cd">
+        <dex dex="D:\Eidolon\Eidolon\app\build\intermediates\pre-dexed\debug\instant-run_b3992da274ee664e8adb308ca26fe9056e071124.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\Eidolon\Eidolon\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_b250b8a929c8ba950524710dd1956b2c68219686.jar" />
+    </item>
+    <item
+        jar="D:\Eidolon\Eidolon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\Eidolon\Eidolon\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_91e08894af5a33a1a96beef656c61164409288ce.jar" />
+    </item>
+    <item
+        jar="D:\Eidolon\Eidolon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\Eidolon\Eidolon\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_e7b44d02b647733e26f36d03c281d55bfdf6900b.jar" />
+    </item>
+    <item
+        jar="D:\Eidolon\Eidolon\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="04076cac1d5abf8280fbc7d9c6bcba6616989611">
+        <dex dex="D:\Eidolon\Eidolon\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_0dda21ac81b49f8b34f2203d2864e793e74b5d19.jar" />
+    </item>
+    <item
+        jar="D:\Eidolon\Eidolon\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\Eidolon\Eidolon\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_2f706e23fbbdb7eeeb4afb8e54a4094e271bdf2a.jar" />
+    </item>
+
+</items>

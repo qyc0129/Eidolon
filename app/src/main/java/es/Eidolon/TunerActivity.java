@@ -238,7 +238,8 @@ public class TunerActivity extends Activity {
                 // Do nothing, you will be overriding this anyway
                 final String name1=name.getText().toString();
                 final String pswd1=pswd.getText().toString();
-                startNetThread("10.206.43.162",21567,name1,pswd1);
+                //startNetThread("10.206.43.162",21567,name1,pswd1);
+                startNetThread("120.24.40.127",21567,name1,pswd1);
                 //mp.start();
             }
         });
@@ -280,7 +281,8 @@ public class TunerActivity extends Activity {
                 // Do nothing, you will be overriding this anyway
                 final String name1=name.getText().toString();
                 final String pswd1=pswd.getText().toString();
-                Register("10.206.43.162",21567,name1,pswd1);
+                //Register("10.206.43.162",21567,name1,pswd1);
+                Register("120.24.40.127",21567,name1,pswd1);
                 //mp.start();
             }
         });

@@ -1,2 +1,0 @@
-CHANGED,D:\Eidolon\Eidolon\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\es\Eidolon\TunerActivity$12$override.class
-CHANGED,D:\Eidolon\Eidolon\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

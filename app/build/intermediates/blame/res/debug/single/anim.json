@@ -8,10 +8,6 @@
         "source": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "E:\\Eidolon-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
         "merged": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
         "source": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_bottom.xml"
     },
@@ -20,20 +16,8 @@
         "source": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "E:\\Eidolon-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "E:\\Eidolon-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
         "merged": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_info_popup.xml",
         "source": "D:\\Eidolon\\Eidolon\\app\\src\\main\\res\\anim\\anim_info_popup.xml"
-    },
-    {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\anim_info_popup.xml",
-        "source": "E:\\Eidolon-master\\app\\src\\main\\res\\anim\\anim_info_popup.xml"
     },
     {
         "merged": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
@@ -44,10 +28,6 @@
         "source": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "E:\\Eidolon-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
         "merged": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_exit.xml"
     },
@@ -56,35 +36,11 @@
         "source": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "E:\\Eidolon-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "E:\\Eidolon-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "E:\\Eidolon-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "E:\\Eidolon-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "E:\\Eidolon-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
         "merged": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
         "source": "D:\\Eidolon\\Eidolon\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "E:\\Eidolon-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "E:\\Eidolon-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     }
 ]
